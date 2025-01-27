@@ -18,7 +18,7 @@ jobs:
         with:
           pin-name: 'IPFS'
           path: './src'
-          pinata-api-key: ${{ secrets.PINATA_API_KEY }}
-          pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
+          pinata-api-key: ${{ secrets.Pinata_API_key }}
+          pinata-secret-api-key: ${{ secrets.Pinata_API_secret }}
           verbose: true
           remove-old: true
